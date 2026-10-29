@@ -1,0 +1,20 @@
+# Local SDK / machine config
+local.properties
+
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Android Studio
+*.iml
+.idea/
+*.log
+
+# Secrets - never commit these
+*.jks
+*.keystore
+*.pem
+*.key
+.env
+google-services.json
